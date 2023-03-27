@@ -44,6 +44,7 @@ it. After you edited the file, you have to run make again.
 Because of some minor issues with xmouseless which cannot be easily fixed the way it operates, a new version, called
 [mouseless](https://github.com/jbensmann/mouseless), has been created. It operates on the level of Linux devices and has
 the following advantages:
+
 - not dependent on X11, e.g. works with Wayland too
 - unless xmouseless, does not have problems with clicks in some menus
 - possibility to toggle the mouse mode by holding down a key
@@ -51,4 +52,3 @@ the following advantages:
 
 Nevertheless, you still might want to try xmouseless first to see if it fits your needs, since it is a little
 easier to configure, and try mouseless later in case you want more features.
-
