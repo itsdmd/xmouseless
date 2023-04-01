@@ -10,7 +10,7 @@ static const unsigned int default_speed = 500;
 /* changes the speed of the mouse pointer */
 static SpeedBinding speed_bindings[] = {
     /* key             speed */  
-    { XK_Shift_L, 3000 },
+    { XK_Shift_L, 2000 },
     { XK_Alt_L,   100  },
 };
 
