@@ -39,12 +39,12 @@ static ClickBinding click_bindings[] = {
  * a higher value scrolls faster */
 static ScrollBinding scroll_bindings[] = {
     /* key          x      y */
-    { XK_d,         0 ,    25 },
-    { XK_h,         0 ,   -25 },
-    { XK_Page_Down, 0 ,    80 },
-    { XK_Page_Up,   0 ,   -80 },
-    { XK_v,         25,    0  },
-    { XK_k,        -25,    0  },
+    { XK_u,           0 ,    25 },
+    { XK_y,           0 ,   -25 },
+    { XK_l,           0 ,    80 },
+    { XK_semicolon,   0 ,   -80 },
+    { XK_h,           25,    0  },
+    { XK_apostrophe, -25,    0  },
 };
 
 /* executes shell commands */
